@@ -12,6 +12,7 @@ body{
 }
 .nav-title {
     display: flex;
+    justify-content: end;
     width: 100%;
     padding: 53px 0 0 200px;
     font-size: 35px;
@@ -21,7 +22,16 @@ body{
     display: flex;
     justify-content: space-around;
     width: 100%;
-    padding: 26px 0 0 477px;
+    padding: 36px 0 0 700px;
+}
+.home-login:hover {
+    color:white;
+    font-size: 30px;
+    font-weight: 700;
+    background-color: red;
+    border-radius: 5px;
+    transform: rotate3d(2, -1, -1, -0.2turn);
+    cursor: pointer;
 }
 
 /* Main Section Styles */
@@ -147,4 +157,23 @@ text-align: center;
     height: 160px;
     padding: 10px;
 
+}
+#ribon:hover, 
+#project:hover,
+#customer:hover,
+#email:hover {
+    background-color: rgb(124, 244, 12);
+    border-radius: 5px;
+    width: 70px;
+    cursor: pointer;
+    transform: rotate3d(2, -1, -1, -0.2turn);
+}
+h3:hover,
+button:hover {
+    color:white;
+    background-color: black;
+    font-size: 30px;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
 }

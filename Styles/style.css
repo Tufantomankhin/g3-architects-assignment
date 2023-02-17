@@ -112,6 +112,7 @@ text-align: center;
 }
 .features-container {
     display: flex;
+    width: 100%;
 }
 .feature-container {
     display: grid;
@@ -120,15 +121,15 @@ text-align: center;
     position: relative;
     width: 100%;
     margin: 0;
-    /* border: 5px solid black; */
 }
 .feature-love {
     border-left: 3px solid chocolate;
+    padding-left: 10px;
 }
 .divice-version {
-    box-shadow: 5px 10px 10px 5px #f6ebeb;
+    box-shadow: 10px 10px 10px 10px #f6ebeb;
     border-radius: 5px;
-    /* background-color: white; */
+    padding: 10px;
 }
 .architecht-img{
     width: 100%;
@@ -176,4 +177,22 @@ button:hover {
     font-weight: 700;
     border-radius: 5px;
     cursor: pointer;
+}
+.sponsor {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.sponsor-img {
+    display: flex;
+    justify-content: space-around;
+    filter: grayscale(100%);
+    margin: 10px 5px;
+}
+.sponsor-imges:hover {
+    cursor: pointer;
+    opacity: 0.5;
 }

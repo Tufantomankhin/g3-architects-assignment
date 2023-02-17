@@ -97,21 +97,31 @@ text-align: center;
 .text-style {
     color: #727272;
 }
-.feature-container {
-    background-image: url(../images/architect.png);
-    background-repeat: no-repeat;
-    position: absolute;
-    /* width: 1600px; */
-    height: 1059px;
-    left: 440px;
-    top: 1900px;
-}
 .feature {
     color: #FF900E;
 }
-.feature-love h3 {
-    border-left: 3px;
-    border-left-color: chocolate;
+.features-container {
+    display: flex;
+}
+.feature-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    /* border: 5px solid black; */
+}
+.feature-love {
+    border-left: 3px solid chocolate;
+}
+.divice-version {
+    box-shadow: 5px 10px 10px 5px #f6ebeb;
+    border-radius: 5px;
+    /* background-color: white; */
+}
+.architecht-img{
+    width: 100%;
 }
 .btn-experiance {
     border-style: none;
@@ -119,4 +129,22 @@ text-align: center;
     background-color: #FF900E;
     width: 145px;
     height: 85px;
+    position:relative;
+    left: -70px;
+    top: -50px;
+}
+.prjects {
+    display: flex;
+    justify-content: space-around;
+}
+.award {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+   justify-items: center;
+   justify-content: center;
+    border: 2px solid orange;
+    width: 150px;
+    height: 160px;
+    padding: 10px;
+
 }

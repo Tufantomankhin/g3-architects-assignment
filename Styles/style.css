@@ -28,7 +28,7 @@ body{
     color:white;
     font-size: 30px;
     font-weight: 700;
-    background-color: red;
+    background-color: rgb(255, 196, 0);
     border-radius: 5px;
     transform: rotate3d(2, -1, -1, -0.2turn);
     cursor: pointer;
@@ -173,7 +173,7 @@ h3:hover,
 button:hover {
     color:white;
     background-color: black;
-    font-size: 30px;
+    font-size: 15px;
     font-weight: 700;
     border-radius: 5px;
     cursor: pointer;
@@ -195,4 +195,12 @@ button:hover {
 .sponsor-imges:hover {
     cursor: pointer;
     opacity: 0.5;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(237, 221, 198);
+    width: 100%;
+    height: 70px;
 }

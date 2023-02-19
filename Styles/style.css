@@ -1,4 +1,5 @@
 body{
+    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 /* Navbar Styles */
@@ -144,7 +145,7 @@ text-align: center;
     left: -70px;
     top: -50px;
 }
-.prjects {
+.projects {
     display: flex;
     justify-content: space-around;
 }
@@ -196,6 +197,8 @@ button:hover {
     cursor: pointer;
     opacity: 0.5;
 }
+/* Footer Styles */
+
 footer {
     display: flex;
     justify-content: center;
@@ -204,3 +207,111 @@ footer {
     width: 100%;
     height: 70px;
 }
+
+/* @media queries styles */
+
+ @media screen and (max-width: 576px) {
+   .nav-bar-titles {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+    /* width: 570px; */
+    height: 300px;
+    margin: 0px
+   }
+   .nav-title {
+    justify-content: flex-start;
+    padding: 5px;
+   }
+   .nav-home-login {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: start;
+    padding: 5px;
+   }
+   .main-container {
+    grid-template-columns: repeat(1, 1fr);
+    position: relative;
+    width: 570px;
+    font-size: 20px;
+    margin: 45px 0px;
+    padding: 0;
+    }
+    .container {
+        width: 570px;
+        padding: 0;
+    }
+    .banner-title-image {
+        width: 576px;
+        padding: 5px;
+    }
+    .banner-title {
+    /* width: 570px; */
+    text-align: start;
+
+   }
+   .title {
+    width: 570px;
+    font-size: 40px;
+    text-align: start;
+    padding: 5px;
+   }
+   .banner-image {
+    width: 100%;
+    justify-content: center;
+   }
+   .feature-team {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+    width: 570px;
+    padding: 5px;
+   }
+   .team-image {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+   }
+   .feature-quick-list {
+    padding: 0;
+    width: 100%;
+   }
+   .features-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 570px;
+    padding: 0px;
+   }
+   .feature-container, 
+   .features-love, 
+   .feature-love,
+   .version {
+    width: 570px;
+    padding: 0;
+   }
+   .divice-version, .architecht-img {
+    width: 100%;
+    padding: 5px;
+   }
+   .some-facts-container{
+
+   }
+   .some-facts-container, .some-facts {
+    width: 570px;
+    padding: 0;
+   }
+   .projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    width: 576px;
+
+   }
+
+ }

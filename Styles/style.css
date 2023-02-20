@@ -1,5 +1,9 @@
-body{
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
     font-family: 'Poppins', sans-serif;
 }
 /* Navbar Styles */
@@ -133,7 +137,7 @@ text-align: center;
     padding: 10px;
 }
 .architecht-img{
-    width: 100%;
+    max-width: 100%;
 }
 .btn-experiance {
     border-style: none;
@@ -152,8 +156,8 @@ text-align: center;
 .award {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-   justify-items: center;
-   justify-content: center;
+    justify-items: center;
+    justify-content: center;
     border: 2px solid orange;
     width: 150px;
     height: 160px;
@@ -211,6 +215,9 @@ footer {
 /* @media queries styles */
 
  @media screen and (max-width: 576px) {
+    .header-container {
+        width: 570px;
+    }
    .nav-bar-titles {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -248,7 +255,7 @@ footer {
         padding: 5px;
     }
     .banner-title {
-    /* width: 570px; */
+    width: 570px;
     text-align: start;
 
    }
@@ -271,10 +278,13 @@ footer {
     width: 570px;
     padding: 5px;
    }
-   .team-image {
+   .team-image, .sponsor-img {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    justify-content: start;
+    align-items: start;
     width: 100%;
+    padding-left: 5px;
    }
    .feature-quick-list {
     padding: 0;
@@ -283,6 +293,7 @@ footer {
    .features-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    gap: 5px;
     width: 570px;
     padding: 0px;
    }
@@ -310,8 +321,21 @@ footer {
     gap: 5px;
     justify-content: center;
     align-items: center;
+    align-content: center;
     width: 576px;
-
+   }
+   .award {
+    text-align: center;
+   }
+   .sponsor {
+    text-align: start;
+   }
+   .sponsor-img {
+    justify-content: center;
+   }
+   footer {
+    width: 570px;
+    padding: 2px;;
    }
 
  }

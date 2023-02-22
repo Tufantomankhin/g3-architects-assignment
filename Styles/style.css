@@ -27,7 +27,6 @@ body{
     display: flex;
     justify-content: start;
     gap: 50px;
-    /* text-align: center; */
     width: 100%;
     padding: 75px 5px 0 250px;
 }
@@ -226,7 +225,6 @@ footer {
     justify-content: start;
     align-items: start;
     text-align: start;
-    /* width: 570px; */
     height: 300px;
     margin: 0px
    }

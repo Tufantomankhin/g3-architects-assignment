@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+body {
     font-family: 'Poppins', sans-serif;
 }
 /* Navbar Styles */
@@ -137,7 +137,7 @@ text-align: center;
     border-radius: 5px;
     padding: 10px;
 }
-.architecht-img{
+.architecht-img {
     max-width: 100%;
 }
 .btn-experiance {

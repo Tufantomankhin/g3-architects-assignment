@@ -217,7 +217,8 @@ footer {
 
  @media screen and (max-width: 576px) {
     .header-container {
-        width: 570px;
+        width: 100%;
+        padding: 0 10px;
     }
    .nav-bar-titles {
     display: grid;
@@ -241,18 +242,18 @@ footer {
    .main-container {
     grid-template-columns: repeat(1, 1fr);
     position: relative;
-    width: 570px;
+    max-width: 576px;;
     font-size: 20px;
     margin: 45px 0px;
-    padding: 0;
+    padding: 0 10px;
     }
     .container {
-        width: 570px;
+        max-width: 576px;
         padding: 0;
     }
     .banner-title-image {
-        width: 576px;
-        padding: 5px;
+        width: 100%;
+        padding: 5px 10px;
     }
     .banner-title {
     width: 570px;
@@ -260,10 +261,10 @@ footer {
 
    }
    .title {
-    width: 570px;
+    width: 100%;
     font-size: 40px;
     text-align: start;
-    padding: 5px;
+    padding: 5px 10px;
    }
    .banner-image {
     width: 100%;
@@ -275,8 +276,11 @@ footer {
     justify-content: start;
     align-items: start;
     text-align: start;
-    width: 570px;
-    padding: 5px;
+    width: 100%;
+    padding: 5px 10px;
+   }
+   .sponsor {
+    width: 100%;
    }
    .team-image, .sponsor-img {
     display: grid;
@@ -294,29 +298,29 @@ footer {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 5px;
-    width: 570px;
-    padding: 0px;
+    width: 100%;
+    padding: 0 10px;
    }
    .feature-container, 
    .features-love, 
    .feature-love,
    .version {
-    width: 570px;
-    padding: 0;
+    width: 100%;
+    padding: 0 10px;
    }
    .btn-experiance {
     left: 0;
    }
    .divice-version {
     width: 100%;
-    padding: 5px;
+    padding: 5px 10px;
    }
    .architecht-img img {
     max-width: 100%;
    }
    .some-facts-container, .some-facts {
-    width: 570px;
-    padding: 0;
+    width: 100%;
+    padding: 0 10px;
    }
    .projects {
     display: grid;
@@ -325,7 +329,7 @@ footer {
     justify-content: center;
     align-items: center;
     align-content: center;
-    width: 576px;
+    width: 100%;
    }
    .award {
     text-align: center;
@@ -337,8 +341,8 @@ footer {
     padding-left: 200px;
     gap: 10px;
    }
-   footer {
-    width: 570px;
+   .footer-container {
+    width: 576px;
     padding: 2px;;
    }
 

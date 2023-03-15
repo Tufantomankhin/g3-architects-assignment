@@ -144,11 +144,11 @@ text-align: center;
     border-style: none;
     border-radius: 5px;
     background-color: #FF900E;
-    width: 145px;
-    height: 85px;
+    width: 100px;
+    height: 75px;
     position:relative;
-    left: -70px;
-    top: -50px;
+    left: -40px;
+    top: -10px;
 }
 .projects {
     display: flex;
